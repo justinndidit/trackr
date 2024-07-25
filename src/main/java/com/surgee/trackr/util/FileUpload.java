@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.util;
+package com.surgee.trackr.util;
 
 import org.springframework.web.multipart.MultipartFile;
 

@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.service;
+package com.surgee.trackr.service;
 
 import java.io.IOException;
 import java.util.Optional;
@@ -8,9 +8,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.surgee.trackr.user.DAO.UserRepository;
-import com.surgee.trackr.user.DTO.HttpResponseDTO;
-import com.surgee.trackr.user.model.User;
+import com.surgee.trackr.DAO.UserRepository;
+import com.surgee.trackr.DTO.HttpResponseDTO;
+import com.surgee.trackr.model.User;
 
 import lombok.RequiredArgsConstructor;
 

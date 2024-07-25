@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.DTO;
+package com.surgee.trackr.DTO;
 
 import org.springframework.http.HttpStatus;
 

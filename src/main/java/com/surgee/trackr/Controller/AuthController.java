@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.Controller;
+package com.surgee.trackr.Controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpStatus;
@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.surgee.trackr.user.DTO.HttpResponseDTO;
+import com.surgee.trackr.DTO.HttpResponseDTO;
 // import com.surgee.trackr.user.DTO.UserRegistratio
-import com.surgee.trackr.user.model.User;
-import com.surgee.trackr.user.requests.HttpLoginRequest;
-import com.surgee.trackr.user.service.AuthService;
+import com.surgee.trackr.model.User;
+import com.surgee.trackr.requests.HttpLoginRequest;
+import com.surgee.trackr.service.AuthService;
 
 import lombok.RequiredArgsConstructor;
 

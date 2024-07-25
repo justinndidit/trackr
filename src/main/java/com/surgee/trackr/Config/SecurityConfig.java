@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.Config;
+package com.surgee.trackr.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,8 +15,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import lombok.RequiredArgsConstructor;
 
-import com.surgee.trackr.user.filter.JwtAuthFilter;
-import com.surgee.trackr.user.service.UserDetailsServiceImpl;
+import com.surgee.trackr.filter.JwtAuthFilter;
+import com.surgee.trackr.service.UserDetailsServiceImpl;
 
 @Configuration
 @EnableWebSecurity

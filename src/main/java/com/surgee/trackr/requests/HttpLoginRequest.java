@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.requests;
+package com.surgee.trackr.requests;
 
 import lombok.Data;
 

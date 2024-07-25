@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.filter;
+package com.surgee.trackr.filter;
 
 import java.io.IOException;
 
@@ -10,8 +10,8 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.surgee.trackr.user.service.JwtService;
-import com.surgee.trackr.user.service.UserDetailsServiceImpl;
+import com.surgee.trackr.service.JwtService;
+import com.surgee.trackr.service.UserDetailsServiceImpl;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

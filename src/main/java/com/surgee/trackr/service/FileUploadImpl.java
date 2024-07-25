@@ -1,7 +1,7 @@
-package com.surgee.trackr.user.service;
+package com.surgee.trackr.service;
 
 import com.cloudinary.Cloudinary;
-import com.surgee.trackr.user.util.FileUpload;
+import com.surgee.trackr.util.FileUpload;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

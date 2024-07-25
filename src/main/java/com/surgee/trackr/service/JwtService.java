@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.service;
+package com.surgee.trackr.service;
 
 import java.util.Date;
 import java.util.function.Function;
@@ -8,7 +8,7 @@ import javax.crypto.SecretKey;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import com.surgee.trackr.user.model.User;
+import com.surgee.trackr.model.User;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

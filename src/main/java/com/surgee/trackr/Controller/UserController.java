@@ -1,8 +1,8 @@
-package com.surgee.trackr.user.Controller;
+package com.surgee.trackr.Controller;
 
-import com.surgee.trackr.user.service.UserService;
-import com.surgee.trackr.user.DTO.HttpResponseDTO;
-import com.surgee.trackr.user.model.User;
+import com.surgee.trackr.service.UserService;
+import com.surgee.trackr.DTO.HttpResponseDTO;
+import com.surgee.trackr.model.User;
 
 import java.io.IOException;
 
@@ -31,11 +31,8 @@ public class UserController {
             @PathVariable Long user_id, 
             @RequestParam("image")MultipartFile multipartFile,
             @ModelAttribute User user) throws IOException{
-        
                 
             return userService.updateUserProfile(user_id, multipartFile, user);
-            
-            
            
     }
 }

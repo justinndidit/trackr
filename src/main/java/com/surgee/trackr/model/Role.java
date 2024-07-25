@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.model;
+package com.surgee.trackr.model;
 
 // import com.fasterxml.jackson.annotation.JsonFormat;
 

@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.model;
+package com.surgee.trackr.model;
 
 import java.util.Collection;
 import java.util.List;

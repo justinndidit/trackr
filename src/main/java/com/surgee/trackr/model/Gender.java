@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.model;
+package com.surgee.trackr.model;
 
 public enum Gender {
     MALE(0),

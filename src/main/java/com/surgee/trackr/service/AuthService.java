@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.service;
+package com.surgee.trackr.service;
 
 import java.util.Optional;
 
@@ -9,10 +9,10 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.surgee.trackr.user.DAO.UserRepository;
-import com.surgee.trackr.user.DTO.HttpResponseDTO;
-import com.surgee.trackr.user.DTO.UserRegistrationDTO;
-import com.surgee.trackr.user.model.User;
+import com.surgee.trackr.DAO.UserRepository;
+import com.surgee.trackr.DTO.HttpResponseDTO;
+import com.surgee.trackr.DTO.UserRegistrationDTO;
+import com.surgee.trackr.model.User;
 
 import lombok.Builder;
 import lombok.RequiredArgsConstructor;

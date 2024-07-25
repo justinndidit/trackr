@@ -1,6 +1,6 @@
-package com.surgee.trackr.user.DTO;
+package com.surgee.trackr.DTO;
 
-import com.surgee.trackr.user.model.Role;
+import com.surgee.trackr.model.Role;
 
 import lombok.Builder;
 import lombok.Data;

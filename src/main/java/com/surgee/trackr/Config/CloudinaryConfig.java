@@ -1,4 +1,4 @@
-package com.surgee.trackr.user.Config;
+package com.surgee.trackr.Config;
 
 import com.cloudinary.Cloudinary;
 import org.springframework.context.annotation.Bean;
